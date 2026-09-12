@@ -1,0 +1,6 @@
+Juca Bala;90.5;1.77
+Joaquim Bertol;16.0;1.1
+Maria do Socorro;61.3;1.65
+Lucia Maria;60.2;1.63
+Antônio Conselheiro;75.0;1.85
+Diana das Dores;59.0;1.61

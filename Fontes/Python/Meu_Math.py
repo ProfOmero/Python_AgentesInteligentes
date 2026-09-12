@@ -23,4 +23,16 @@ def toString(a, b):
     result += f"{a} * {b} = {mult(a, b)}\n"
     result += f"{a} // {b} = {divInt(a, b)} divisão inteira\n"
     result += f"{a} / {b} = {divReal(a, b):.2f} divisão real\n"
+
     return result
+
+def divisores(n):
+    result = []
+    for i in range(1, n + 1):
+        if (n % i == 0):
+            result.append(i)
+
+    return result
+
+def ehPrimo(n):
+    return(len(divisores(n)) == 2)
